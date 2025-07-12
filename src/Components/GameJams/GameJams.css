@@ -1,0 +1,102 @@
+.gamejams-section {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.section-title {
+	display: flex;
+	align-items: center;
+	font-size: 70px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+
+.section-line {
+	flex-grow: 1;
+	height: 4px;
+	background: linear-gradient(270deg, #e3b47a 10%, #ab3b1e 100%);
+	opacity: 0.9;
+	margin-left: 20px;
+}
+
+.section-title span {
+	background: linear-gradient(270deg, #e3b47a 10%, #ab3b1e 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gamejam-card {
+	margin-bottom: 40px;
+}
+
+.gamejam-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.gamejam-header h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.gamejam-header h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #8f9ba8;
+	margin-top: 4px;
+}
+
+.gamejam-meta {
+	text-align: right;
+	font-size: 20px;
+	color: #bbb;
+}
+
+.gamejam-description {
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #dcdcdc;
+}
+
+.tech-badges {
+	margin-top: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.badge {
+	background-color: #2e2e33;
+	padding: 6px 12px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #e5e5e5;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #333;
+	margin-top: 30px;
+}
+
+.itch-link {
+	margin-top: 16px;
+}
+
+.itch-link a {
+	color: #b1743d;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	transition: color 0.2s;
+}
+
+.itch-link a:hover {
+	color: #ab3b1e;
+	text-decoration: underline;
+}
