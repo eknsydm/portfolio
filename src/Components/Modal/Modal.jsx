@@ -13,7 +13,7 @@ const Modal = ({ project, onClose }) => {
 
 				<img
 					className="modal-image"
-					src={project.p_card_img}
+					src={project.p_modal_img}
 					alt={project.p_name}
 				/>
 

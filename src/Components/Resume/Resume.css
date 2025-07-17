@@ -1,0 +1,20 @@
+.resume-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    border-radius: 10px;
+    background: linear-gradient(264deg, #e3b47a -5.09%, #ab3b1e 100%);
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.resume-button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}

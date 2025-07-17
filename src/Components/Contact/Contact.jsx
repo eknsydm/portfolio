@@ -14,7 +14,7 @@ const Contact = () => {
 					Shoot me an email if you want to connect! You can also find
 					me on{" "}
 					<a
-						href="https://linkedin.com/in/yourusername"
+						href="https://www.linkedin.com/in/ekin-saydam-aa937021b/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -22,7 +22,7 @@ const Contact = () => {
 					</a>{" "}
 					or{" "}
 					<a
-						href="https://twitter.com/yourhandle"
+						href="https://twitter.com/saydam_ekin" 
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -30,8 +30,8 @@ const Contact = () => {
 					</a>{" "}
 					if that's more your speed.
 				</p>
-				<a href="mailto:you@example.com" className="email-link">
-					you@example.com
+				<a href="mailto:ekinsaydam@gmail.com" className="email-link">
+					ekinsaydam@gmail.com
 				</a>
 			</div>
 		</div>

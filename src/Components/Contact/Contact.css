@@ -1,80 +1,83 @@
 .contact-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 60%;
-	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .contact-section-top {
-	display: flex;
-	align-items: center;
-	gap: 30px;
-	margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 0px;
 }
 
 .contact-section-line {
-	flex-grow: 1;
-	height: 4px;
-	background: linear-gradient(270deg, #e3b47a 10%, #ab3b1e 100%);
-	opacity: 0.9;
-	margin-left: 20px;
+    flex-grow: 1;
+    height: 4px;
+    background: linear-gradient(270deg, #e3b47a 10%, #ab3b1e 100%);
+    opacity: 0.9;
+    margin-left: 20px;
 }
 
 .contact-section-title {
-	font-size: 70px;
-	font-weight: 800;
+    font-size: 70px;
+    font-weight: 800;
 }
 
 .contact-section-title span {
-	background: linear-gradient(270deg, #e3b47a 10%, #ab3b1e 100%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: linear-gradient(270deg, #e3b47a 10%, #ab3b1e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact-section-bottom {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	text-align: center;
-	margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .contact-text {
-	font-size: 24px;
-	color: #ccc;
-	margin-top: 0;
-	margin-bottom: 24px;
+    font-size: 24px;
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 .contact-text a {
-	color: #b1743d;
-	text-decoration: none;
-	font-weight: 600;
+    color: #b1743d;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .contact-text a:hover {
-	text-decoration: underline;
-	color: #ab3b1e;
+    text-decoration: underline;
+    color: #ab3b1e;
 }
 
 .email-link {
-	display: inline-block;
-	font-size: 24px;
-	background-color: #2e2e33;
-	padding: 10px 16px;
-	border-radius: 6px;
-	font-weight: bold;
-	color: #fff;
-	text-decoration: none;
-	transition: 0.3s;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: linear-gradient(264deg, #e3b47a -5.09%, #ab3b1e 100%);
+    color: white;
+
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .email-link:hover {
-	background-color: #444;
-	transform: scale(1.05);
-	transition: 0.3s;
+    background-color: #444;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
