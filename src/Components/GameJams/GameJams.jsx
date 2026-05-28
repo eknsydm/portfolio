@@ -2,14 +2,24 @@ import "./GameJams.css";
 
 const gameJams = [
     {
-        name: "Multi Screen Mayhem",
-        jam: "Frost Jam 6",
+        name: "Sir Fold-A-lot",
+        jam: "TeduJam'26",
         description:
-            "A fast-paced clicker and resource management game where you juggle multiple screens and tasks at once. Balance your attention, upgrade your tools, and optimize workflows to keep the chaos under control",
+            "A 2D top-down puzzle game with a sketchy art style where you fold sections of the map to reshape the environment and discover creative ways to solve puzzles.",
         techs: ["Godot", "GDScript", "Aseprite"],
-        date: "March 2024",
+        date: "April 2026",
         achivement: "",
-        itch: "https://divineneos.itch.io/multiscreen-mayhem-goblin-onslaught",
+        itch: "https://alideno.itch.io/jammerer",
+    },
+    {
+        name: "Jamerer",
+        jam: "GatesJam'26",
+        description:
+            " This is a fast-paced platformer built around a unique desync mechanic. By placing a jammer device",
+        techs: ["Godot", "GDScript", "Aseprite"],
+        date: "March 2026",
+        achivement: "1st Place + Most Completed Game Award",
+        itch: "https://alideno.itch.io/sir-fold-a-lot",
     },
     {
         name: "Seeking for Solitude",
@@ -18,8 +28,18 @@ const gameJams = [
             "This is a story of a being who only wishes to be alone, to have some space... push things away from you to complete the levels",
         techs: ["Godot", "GDScript", "Aseprite", "Audacity"],
         date: "May 2024",
-        achivement: "5th place",
+        achivement: "5th Place",
         itch: "https://tuge07.itch.io/seeking-for-solitude",
+    },
+    {
+        name: "Multi Screen Mayhem",
+        jam: "Frost Jam 6",
+        description:
+            "A fast-paced clicker and resource management game where you juggle multiple screens and tasks at once. Balance your attention, upgrade your tools, and optimize workflows to keep the chaos under control",
+        techs: ["Godot", "GDScript", "Aseprite"],
+        date: "March 2024",
+        achivement: "",
+        itch: "https://divineneos.itch.io/multiscreen-mayhem-goblin-onslaught",
     },
 ];
 
